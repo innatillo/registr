@@ -1,0 +1,49 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+
+}
+#d1 {
+    display: flex;
+    box-shadow: 0 0 20 px darkblue;
+    background-color: green;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+#d1 form label {
+    font-size: 20px;
+}
+#d1 form input {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    border-color: hotpink;
+    box-shadow: 0 0 10px blue;
+}
+#d2 {
+    margin: 10px;
+}
+#d3 {
+    margin: 10px;
+}
+#d4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#btnsubmit {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
+#btnsubmit:hover {
+    color: green;
+    background-color: red;
+    transition: 0.5s;
+    border-radius: 100%;
+}
